@@ -15,9 +15,9 @@ function Indexpg() {
   );
 
   return (
-    <div className="max-w-5xl mx-auto p-6 eagle-lake-regular">
+    <div className="max-w-5xl mx-auto p-6 font-sans">
       <div className="flex items-center justify-between mb-6">
-        <h1 className="text-3xl font-semibold mb-6 text-center text-[#b67f1f]">
+        <h1 className="text-4xl sm:text-5xl font-bold text-[#8b6b2c] mb-3 eagle-lake-regular">
           List Of Songs
         </h1>
         <input
