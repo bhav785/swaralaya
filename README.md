@@ -20,8 +20,7 @@ No more scrolling endlessly through your phone’s gallery to find a song photo!
 | Layer | Technology |
 |-------|-------------|
 | **Frontend** | React.js (Vite) + Tailwind CSS |
-| **Backend** | Spring Boot  |
-| **Database** | Firebase |
+| **Backend** | Supabase |
 | **Version Control** | Git + GitHub |
 
 
