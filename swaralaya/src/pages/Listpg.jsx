@@ -1,5 +1,5 @@
 import React from "react";
-
+import NavBar from "../components/NavBar";
 function ListCard({ title, description }) {
   return (
     <div className="group cursor-pointer">
@@ -52,6 +52,8 @@ function Listpg() {
   ];
 
   return (
+    <>
+    <NavBar/>
     <div
       className="min-h-screen py-12 px-4 sm:px-6 font-sans bg-[#f2f0e4]"
     >
@@ -60,9 +62,9 @@ function Listpg() {
         <div className="text-center mb-16">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-8">
             <div className="text-left mb-6 sm:mb-0">
-              <h1 className="text-4xl sm:text-5xl font-bold text-[#8b6b2c] mb-3 eagle-lake-regular">
+              {/* <h1 className="text-4xl sm:text-5xl font-bold text-[#8b6b2c] mb-3 eagle-lake-regular">
                 My Lists
-              </h1>
+              </h1> */}
             </div>
             <button 
               className="bg-[#b67f1f] hover:bg-[#8b6b2c] text-white font-semibold py-3 px-6 rounded-xl shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
@@ -129,6 +131,7 @@ function Listpg() {
         */}
       </div>
     </div>
+    </>
   );
 }
 
