@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from "react";
 import NavBar from "../components/NavBar";
-import CreateList from "../components/createList";
+import CreateList from "../components/CreateList";
 import { supabase } from "../supabaseclient";
 import ViewListModal from "../components/ViewListModal";
 function ListCard({ title, onClick }) {

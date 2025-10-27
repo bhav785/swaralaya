@@ -1,6 +1,7 @@
 import { useState,useEffect } from "react";
 import { supabase } from "../supabaseclient";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [userMenuOpen, setUserMenuOpen] = useState(false);
@@ -43,24 +44,24 @@ function NavBar() {
 
         {/* Desktop navigation links */}
         <div className="hidden sm:flex space-x-8 items-center eagle-lake-regular font-medium text-gray-900">
-          <a
+          <Link
             href="/index"
             className="text-lg hover:text-amber-800 transition-colors hover:-translate-y-1"
           >
             INDEX
-          </a>
-          <a
+          </Link>
+          <Link
             href="/home"
             className="text-lg hover:text-amber-800 transition-transform hover:-translate-y-1"
           >
             NOTATIONS
-          </a>
-          <a
+          </Link>
+          <Link
             href="/lists"
             className="text-lg hover:text-amber-800 transition-colors hover:-translate-y-1"
           >
             LISTS
-          </a>
+          </Link>
         </div>
 
         {/* User menu for desktop */}
@@ -168,7 +169,7 @@ function NavBar() {
       {/* Mobile dropdown menu */}
       {menuOpen && (
         <div className="sm:hidden bg-[#f2f0e4] border-t border-gray-300 eagle-lake-regular">
-          <a
+          <Link
             href="/index"
             className="block px-4 py-3 text-gray-900 hover:bg-amber-200 transition flex items-center gap-2"
           >
@@ -186,8 +187,8 @@ function NavBar() {
               />
             </svg>
             INDEX
-          </a>
-          <a
+          </Link>
+          <Link
             href="/home"
             className="block px-4 py-3 text-gray-900 hover:bg-amber-200 transition flex items-center gap-2"
           >
@@ -205,8 +206,8 @@ function NavBar() {
               />
             </svg>
             NOTATIONS
-          </a>
-          <a
+          </Link>
+          <Link
             href="/lists"
             className="block px-4 py-3 text-gray-900 hover:bg-amber-200 transition flex items-center gap-2"
           >
@@ -224,7 +225,7 @@ function NavBar() {
               />
             </svg>
             LISTS
-          </a>
+          </Link>
 
           {/* Mobile user section */}
           <div className="border-t border-gray-300 mt-2 pt-2">

@@ -6,7 +6,7 @@ import { supabase } from './supabaseclient';
 import Indexpg from './pages/Indexpg';
 import Homepg from './pages/Homepg';
 import Listpg from './pages/Listpg';
-import Login from './pages/login';
+import Login from './pages/Login';
 import AddSong from './components/AddSong';
 
 // Wrap everything in a component that has access to useNavigate
