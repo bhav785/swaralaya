@@ -35,23 +35,6 @@ function Login() {
             </svg>
             <span className="text-sm">Continue with Google</span>
           </button>
-
-          {/* Divider */}
-          <div className="flex items-center my-6">
-            <div className="flex-1 border-t border-gray-300"></div>
-            <span className="mx-4 text-sm text-gray-500">or</span>
-            <div className="flex-1 border-t border-gray-300"></div>
-          </div>
-
-          {/* Alternative Options */}
-          <div className="text-center">
-            <p className="text-sm text-gray-600">
-              Don't have an account?{" "}
-              <button className="text-amber-600 hover:text-amber-700 font-medium transition-colors duration-200">
-                Sign up
-              </button>
-            </p>
-          </div>
         </div>
 
         {/* Footer */}

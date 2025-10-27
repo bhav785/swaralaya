@@ -14,7 +14,7 @@ function NavBar() {
     } else {
       console.log("User logged out successfully");
       
-      navigate("/login");
+      navigate("/");
     }
   };
 

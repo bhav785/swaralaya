@@ -20,11 +20,11 @@ useEffect(() => {
     if (event === 'SIGNED_IN') {
       // Redirect only if you’re on /login or /
       const currentPath = window.location.pathname;
-      if (currentPath === '/' || currentPath === '/login') {
+      if (currentPath === '/') {
         navigate('/home');
       }
     } else if (event === 'SIGNED_OUT') {
-      navigate('/login');
+      navigate('/');
     }
   });
 
@@ -34,7 +34,7 @@ useEffect(() => {
 
   return (
     <Routes>
-      <Route path="/login" element={<Login />} />
+      <Route path="/" element={<Login />} />
       <Route path="/index" element={<Indexpg />} />
       <Route path="/home" element={<Homepg />} />
       <Route path="/lists" element={<Listpg />} />
