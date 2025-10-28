@@ -9,10 +9,10 @@ No more scrolling endlessly through your phone’s gallery to find a song photo!
 
 -  **Song Index Page** — View all songs in a clean, searchable table  
 -  **Search & Filter** — Instantly find songs by title  
--  **Upload Notes (coming soon)** — Store and view scanned song sheets  
+-  **Upload Notes** — Store and view scanned song sheets  
 -  **Delete / Manage Entries** — Keep your collection organized  
 -  **Modern UI** — Built with Tailwind CSS for a clean and responsive look  
-
+-  **Create Lists**- Create custom song lists for different occasions
 ---
 
 ##  Tech Stack
